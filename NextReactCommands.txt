@@ -1,0 +1,19 @@
+to create=> npx create-next-app => choose options 
+to run=> npm run dev
+to open in vscode => code .
+
+jsx => javascript XML
+npx > node package execute
+
+
+
+
+Worked on a project management HTML, CSS, and JavaScript. Responsibilities included designing UI components, integrating with backend APIs, and ensuring a responsive layout.
+
+Backend experience in PHP database operations and small funtions.
+
+Proficient in CSS and Bootstrap CSS. Bootstrap for its pre-designed components and responsive grid system.
+
+Used local component state with useState for specific component data and global state with Redux for managing shared state across components.
+
+Organized components using a modular approach, employing directories, PropTypes for type checking, and leveraging component libraries like Material-UI. Emphasized container/presentational component pattern for maintainability.

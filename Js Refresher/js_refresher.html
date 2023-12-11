@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js Practice</title>
+</head>
+
+<body>
+  <h1>js Practice</h1>
+  <script>
+
+    "use strict";
+    // d = 99; > will casue error in use strict
+
+    // var a = 34;
+    // const a = 34;
+    let a = 34;
+    console.log(a, typeof (a));
+    a = "Abhi";
+    console.log(a, typeof (a));
+    // assignment operation
+
+    // numbers
+    // objects
+    // booleans 
+    // strings
+    // undefined
+    // null
+
+
+    function hello() {
+      console.log("Hey!, I'm function");
+    }
+    hello();
+
+    let obj = {
+      a: 10,
+      b: 20,
+      fun: function myFun(n) {
+        console.log(`The number is ${n} `);
+      }
+    }
+    console.log(obj, obj.a, obj.b);
+    console.log(obj.fun(1234));
+
+    // events 
+    document.addEventListener('click', function click() {
+      console.log("click Event");
+    })
+
+    // alert("This is an Alert!");
+    // prompt("This is Prompt:-"); // 
+    // confirm("This is confirm:-"); // true / false
+
+    // substring of string
+    // last index and methods
+    // number methods
+    // for loop
+    // while loop
+    // conditional statement 
+    // array functions
+    // break continue
+    // switch case
+
+    let arr = [1, 2, 3, 4, 7, 34, "ddw", "fefe"]
+    console.log(arr);
+
+    arr.forEach(elm => {
+      console.log(elm)
+    })
+
+    console.log(this);
+
+    let myObj = {
+      myFunc: (number) => {
+        console.log(this);
+      },
+
+      myFunc2: function (number) {
+        console.log(this);
+      }
+
+    }
+    myObj.myFunc(); // gloabl object with arrow function
+    myObj.myFunc2(); // current object with Function statement
+
+
+
+    // callbacks 
+    console.log("text  before setTimeout ");
+    setTimeout(() => {
+      console.log("text  in setTimeout ");  // waits in side then send back to call back queue to call stack
+      // doesn't block code run 
+    }, 1000); // fire callback after given time 
+    console.log("text  after setTimeout");
+
+    // js > sychroneous programming language 
+
+
+    
+
+
+
+
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>

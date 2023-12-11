@@ -1,0 +1,36 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#rect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 40%;
+  border: 1px solid #000;
+  cursor: pointer;
+  background-color: rgb(255,0,0,0.5);
+
+}

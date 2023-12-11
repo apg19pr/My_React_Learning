@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <h1>Changing color of rectangle on hover left red right blue</h1>
+  <p><small>make an rectangle & when we move mouse on that rectangle on the left side we want to radually change the
+      color of that rectangle to red and when we move mouse to the right side we want to change the color to
+      blue.</small></p>
+  <div class="parent">
+    <div id="center"></div>
+  </div>
+
+  <div>
+    <ul>
+      <li>
+        check mouse hover on div and move effect 
+        <p><small>rect.addEventListener("mousemove", (details)=>{});</small></p>
+      </li>
+      <li>calculate x, y values from center for div 
+        <p><small> rect.getBoundingClientRect()</small></p>
+      </li>
+      <li>calculate right and left of the div > mouseInRectPositionX <p><small>rectLocation.width/2? "left" : "right"</small></p></li>
+      <li>as per x,y modfiy intensity of color
+        <p><small>
+          use gasp mapRange<br>
+          gsap.to(rect, {
+            backgroundColor: `rgb(0, 0, ${blueColor})`,
+            ease: Power5,
+          })
+        </small></p>
+      </li>
+    </ul>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
