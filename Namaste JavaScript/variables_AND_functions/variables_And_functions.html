@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>variables & functions</title>
+</head>
+
+<body>
+  <h1>
+    variables & functions
+  </h1>
+
+
+  <script>
+
+    // printName();
+    // console.log(x); // undefined
+    // console.log(getName); // undefined
+    // console.log(printName); // printing function
+
+    var x = "x in global scope";
+    function printName() {
+      console.log("abhishek")
+    }
+
+    var getName = () => { // behaves like varibales f 
+      console.log("Abhishek")
+    }
+
+    // printName();
+    console.log(x)
+    // getName();
+
+    // a();
+    // b();
+
+    function a() {
+      var x = "x in Function a";
+      console.log(x);
+
+      console.log("Inside a > " + c );
+
+      function p() {
+        console.log("Inside a > Inside c > " + c)
+      }
+      p();
+    }
+    // console.log(x + " after a()")
+    
+    function b() {
+      var x = "x in Fun b";
+      console.log(x)
+    }
+    var c = "c in global scope"
+
+    a();
+    // b();
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
