@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Arial', Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.floating-list {
+  display: inline-block;
+  border-right: 1px solid rgb(0, 0, 0, 0.16);
+  padding: 0.25rem;
+  padding-right: 1rem;
+
+}
+
+.lifeCycle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.lifeCycle li {
+  margin-bottom: 0.5rem;
+}
+
+.lifeCycle ol li {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.24);
+}
