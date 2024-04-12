@@ -1,0 +1,89 @@
+React Questions >>>>>
+
+what is React?
+what are main features of react? 
+Difference between Angular, React and Veu?
+Explain & Create React comoponent with explaining props and states?
+what are Props and State in React?
+what is way to pass data from child to parent in react? (for parent to child props is used) ans => useState 
+how to pass data from child to parent in react (CLass based components)?
+what are React Hooks?
+what is componet should update in react? 
+explain Lifecycle & Lifecycle methods in react?
+React DOM vs Virtual DOM
+How virtual DOM works in react?
+What are control and uncontrolled components in React? 
+what is JSX?
+Create React app step by step command and code?
+functional and class component example?
+What are REST in React?
+what are difference between shadow DOM and virtual DOM?
+Create Element & clone Element in React diffrence
+What are statefull components(Functional) and class component? 
+what are limitations in React?
+Render component conditionally?
+React Routers?
+Context API?
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+What is Redux?
+state management in redux?
+Explain Redux Architecture?
+why Redux is needed?
+Basic concept about saga, thunk?
+which middlerware you use in react? 
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------- 
+JavaScript
+
+what are features in ES6?
+Let Const Var difference with example?
+what is Hoisting explain with let, var, const, function, arrow function?
+what is Clouser in JavaScript? 
+block scope vs global scope?
+const > aaray and object modification possible?
+what is Rest and Spread operator and their difference?
+destructuring Object and Array?
+is JavaScript single threaded or multithreaded langauge?
+How to achive Asycn behaviour in JavaScript?
+Explain Event Loop?
+Explain Event Loop asycn calls?
+Shallow copy and Deep copy?
+What is prototype inheritance?
+Explain Call, Apply, Bind?
+ 
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Questions:-
+
+(input) => 5431=> 5 + 4 + 3+ 1 => 13 => 1+3 => 4 <= (output)
+console.log(mul(2)(3)(4)) => 24
+[1,0,0,1,1,1,0,0,1,0] => find count of only 1 => (arr.filter)
+
+
+console.log(null == undefined) =>  true
+console.log(null === undefined) => false
+console.log(null == null) => ture
+
+
+
+
+ 
+
+
+ 
+
+
+
+

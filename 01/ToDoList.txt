@@ -1,0 +1,35 @@
+40 minutes 
+question js
+
+array > [] > find unique element(single item)
+duplicate array
+throatling bouncing
+rest and spread
+unique element arr = [1,1,2,4,5,6,4,7,2]
+ //input: s = ")("; 
+// Output: [""]
+
+--------------------Done -------------------- 
+var const let
+call bind apply
+explain this keyword in terms of closers--
+closures
+map, filter reduce
+--------------------Done --------------------
+
+
+
+
+    React
+hooks > what are the hooks > & types > memo, contextAPI, useState, useEffect > explain each
+comp A inside comp B > parent me iisue then child me isSue
+react router
+app enhance & optimizing > lazy loading
+
+fun vs class difference
+
+redux question
+
+
+
+

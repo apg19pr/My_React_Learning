@@ -1,0 +1,12 @@
+npm install -g create-react-app
+
+to check if these isnatlled 
+node -v
+npm -v
+
+
+
+to create React App >
+npx create-react-app my-app
+  cd my-app2
+  npm start

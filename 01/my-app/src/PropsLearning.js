@@ -1,7 +1,7 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
-function PropsLearning(props) {
+export default function PropsLearning(props) {
 
   return (
     <div className='floating-list'>
@@ -18,7 +18,6 @@ function PropsLearning(props) {
 
 // props.propTypes = {}
 
-export default PropsLearning
 
 
 
