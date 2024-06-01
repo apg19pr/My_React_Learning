@@ -6,8 +6,7 @@ duplicate array
 throatling bouncing
 rest and spread
 unique element arr = [1,1,2,4,5,6,4,7,2]
- //input: s = ")("; 
-// Output: [""]
+ //input: s = ")("; // Output: [""]
 
 --------------------Done -------------------- 
 var const let
