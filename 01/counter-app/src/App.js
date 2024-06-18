@@ -3,6 +3,9 @@ import Login from './Login';
 import StateImmutabilityCounter from './StateImmutabilityCounter';
 import StateCounterClass from './stateCounterCLass';
 import StateFunctional from './stateFunctional';
+import Body from './component/Body';
+import appStore from './redux/appStore';
+import { Provider } from "react-redux";
 
 function App() {
   return (
@@ -12,9 +15,13 @@ function App() {
       <StateFunctional />
       <Login />
       <StateImmutabilityCounter />
-      
 
-    </div>
+      <Provider store={appStore}>
+        <Body />
+      </Provider>
+
+
+    </div >
   );
 }
 
